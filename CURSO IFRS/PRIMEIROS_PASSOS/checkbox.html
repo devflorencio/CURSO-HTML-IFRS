@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <section>
+        <form method="post" action="#"></form>
+        Qual aparelho você possui?<br>
+        <input type="checkbox" name="notebook" value="sim">Notebook<br>
+        <input type="checkbox" name="tablet" value="sim">Tablet<br>
+        <input type="checkbox" name="celular" value="sim" checked>Celular<br>
+        <p>Você prefere:</p>
+        <input type="radio" name="sistema" value="ios">IOS<br>
+        <input type="radio" name="sistema" value="android" checked>ANDROID<br>
+    </section> 
+<br>
+    <section>
+        <form method="post" action="recebe.php">
+            <input list="cursos" name="cursos">
+            <datalist id="cursos">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </datalist>
+        </form>
+    </section>
+
+    <section>
+        <form method="post" action="recebe.php" enctype="multipart/form-data">
+            <input type="file" name="arquivo">
+        </form>
+    </section>
+    
+</body>
+</html>

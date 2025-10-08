@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <section>
+        <form method="post" action="#">
+            Nome:<input type="text" name="nome" placeholder="Digite o seu nome" required>
+            CPF: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="Digite o CPF com pontos e traços" required>
+            Senha: <input type="password" name="senha" required><br>
+            Título <input type="text" name="Título" required><br>
+            Descrição: <textarea name="descricao" required></textarea>
+          <!---  <button type="button">Enviar</button> -->
+          <button type="submit">Quero me logar</button>
+          <button type="reset">Limpar Campos</button>
+        </form>
+    </section>
+    
+</body>
+</html>
