@@ -8,6 +8,18 @@ body{
     margin-right: 3%;
 }
 
+@media screen and (max-width: 600px){
+    .container-imagem{
+        display: block;
+        background-image: none;
+    }    
+}
+
+.container-imagem{
+    width: 50vw;
+
+}
+
 h1 {
     text-align: center;
     font-size: 40pt;
@@ -23,6 +35,8 @@ p{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
+    border-style: solid;
+    border: 3px;
 }
 
 
@@ -59,16 +73,7 @@ a:hover{
 a:visited{
     background-color: rgb(231, 181, 181);  
     color: red;  
+    
 }
 
-@media screen and (max-width: 768px){
-    .container-imagem{
-        display: block;
-        background-image: none;
-    }    
-}
 
-.container-imagem{
-    width: 50vw;
-
-}
